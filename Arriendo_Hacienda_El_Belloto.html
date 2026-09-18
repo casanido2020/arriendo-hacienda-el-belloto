@@ -1,0 +1,1757 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Casa en Arriendo · Hacienda El Belloto, Paine | Tu Refugio en la Naturaleza</title>
+  <meta name="description" content="Casa nueva en arriendo en Hacienda El Belloto, Paine. 3 dormitorios, 2 baños, 1.500 m² de bosque nativo, marina privada en Laguna de Aculeo, club house con piscina y seguridad 24/7." />
+  
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌿</text></svg>">
+
+  <!-- Google Fonts: Cormorant Garamond & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg-cream: #FAF8F5;
+      --bg-surface: #FFFFFF;
+      --bg-surface-subtle: #F4EFEA;
+      --border-subtle: #E8E1D7;
+      
+      --color-forest: #2B4335;
+      --color-forest-dark: #1E3126;
+      --color-forest-light: #41614F;
+      --color-forest-soft: #EBF1EC;
+      
+      --color-clay: #C27E5D;
+      --color-clay-soft: #F6EFEA;
+      --color-clay-dark: #A46344;
+      
+      --color-text-main: #242A26;
+      --color-text-muted: #5C6760;
+      --color-text-light: #8A968E;
+      
+      --font-serif: 'Cormorant Garamond', Georgia, serif;
+      --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+      
+      --shadow-sm: 0 2px 8px rgba(33, 45, 38, 0.04);
+      --shadow-md: 0 8px 24px rgba(33, 45, 38, 0.06);
+      --shadow-lg: 0 16px 40px rgba(33, 45, 38, 0.08);
+      --radius-sm: 10px;
+      --radius-md: 16px;
+      --radius-lg: 24px;
+      --radius-pill: 9999px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg-cream);
+      color: var(--color-text-main);
+      font-family: var(--font-sans);
+      font-size: 16px;
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+      overflow-x: hidden;
+    }
+
+    h1, h2, h3, h4, .font-serif {
+      font-family: var(--font-serif);
+      letter-spacing: -0.01em;
+      font-weight: 500;
+      color: var(--color-forest-dark);
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
+      padding-left: 24px;
+      padding-right: 24px;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-itemás: center;
+      gap: 6px;
+      padding: 6px 14px;
+      border-radius: var(--radius-pill);
+      font-size: 0.82rem;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+
+    .badge-forest {
+      background-color: var(--color-forest-soft);
+      color: var(--color-forest);
+      border: 1px solid rgba(43, 67, 53, 0.12);
+    }
+
+    .badge-clay {
+      background-color: var(--color-clay-soft);
+      color: var(--color-clay-dark);
+      border: 1px solid rgba(194, 126, 93, 0.2);
+    }
+
+    .btn {
+      display: inline-flex;
+      align-itemás: center;
+      justify-content: center;
+      gap: 10px;
+      padding: 14px 28px;
+      border-radius: var(--radius-pill);
+      font-family: var(--font-sans);
+      font-weight: 600;
+      font-size: 0.95rem;
+      transition: all 0.25s ease;
+      cursor: pointer;
+      border: none;
+      text-decoration: none;
+    }
+
+    .btn-primary {
+      background-color: var(--color-forest);
+      color: #FFFFFF;
+      box-shadow: 0 6px 18px rgba(43, 67, 53, 0.25);
+    }
+    .btn-primary:hover {
+      background-color: var(--color-forest-dark);
+      transform: translateY(-2px);
+      box-shadow: 0 10px 24px rgba(43, 67, 53, 0.35);
+    }
+
+    .btn-clay {
+      background-color: var(--color-clay);
+      color: #FFFFFF;
+      box-shadow: 0 6px 18px rgba(194, 126, 93, 0.28);
+    }
+    .btn-clay:hover {
+      background-color: var(--color-clay-dark);
+      transform: translateY(-2px);
+    }
+
+    .btn-secondary {
+      background-color: var(--bg-surface);
+      color: var(--color-forest);
+      border: 1px solid var(--border-subtle);
+    }
+    .btn-secondary:hover {
+      background-color: var(--bg-surface-subtle);
+      border-color: var(--color-forest-light);
+    }
+
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      backdrop-filter: blur(12px);
+      background-color: rgba(250, 248, 245, 0.92);
+      border-bottom: 1px solid rgba(232, 225, 215, 0.7);
+      transition: all 0.3s ease;
+    }
+    .nav-container {
+      display: flex;
+      align-itemás: center;
+      justify-content: space-between;
+      height: 76px;
+    }
+    .nav-brand {
+      display: flex;
+      flex-direction: column;
+    }
+    .nav-brand-title {
+      font-family: var(--font-serif);
+      font-size: 1.55rem;
+      font-weight: 600;
+      color: var(--color-forest);
+      line-height: 1.1;
+      letter-spacing: 0.02em;
+    }
+    .nav-brand-sub {
+      font-size: 0.75rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--color-clay);
+      font-weight: 600;
+    }
+    .nav-links {
+      display: flex;
+      align-itemás: center;
+      gap: 32px;
+    }
+    .nav-link {
+      font-size: 0.92rem;
+      font-weight: 500;
+      color: var(--color-text-muted);
+      transition: color 0.2s;
+    }
+    .nav-link:hover {
+      color: var(--color-forest);
+    }
+    .nav-actions {
+      display: flex;
+      align-itemás: center;
+      gap: 14px;
+    }
+
+    .hero {
+      padding: 48px 0 72px 0;
+    }
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1fr 1.05fr;
+      gap: 48px;
+      align-itemás: center;
+    }
+    .hero-content {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+    .hero-title {
+      font-size: clamp(2.6rem, 4.2vw, 3.8rem);
+      line-height: 1.1;
+      color: var(--color-forest-dark);
+      font-weight: 500;
+    }
+    .hero-title span {
+      color: var(--color-clay);
+      font-style: italic;
+    }
+    .hero-desc {
+      font-size: 1.1rem;
+      color: var(--color-text-muted);
+      max-width: 520px;
+      line-height: 1.7;
+    }
+    .hero-stats-row {
+      display: flex;
+      align-itemás: center;
+      gap: 28px;
+      padding: 16px 0;
+      border-top: 1px solid var(--border-subtle);
+      border-bottom: 1px solid var(--border-subtle);
+      margin-top: 4px;
+    }
+    .hero-stat-item {
+      display: flex;
+      flex-direction: column;
+    }
+    .hero-stat-value {
+      font-family: var(--font-serif);
+      font-size: 1.8rem;
+      font-weight: 600;
+      color: var(--color-forest);
+      line-height: 1;
+    }
+    .hero-stat-label {
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--color-text-light);
+      margin-top: 4px;
+      font-weight: 500;
+    }
+    .hero-price-tag {
+      background-color: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      padding: 16px 22px;
+      border-radius: var(--radius-md);
+      display: inline-flex;
+      align-itemás: baseline;
+      gap: 12px;
+      box-shadow: var(--shadow-sm);
+    }
+    .hero-price-uf {
+      font-family: var(--font-serif);
+      font-size: 2.2rem;
+      font-weight: 700;
+      color: var(--color-forest);
+      line-height: 1;
+    }
+    .hero-price-sub {
+      font-size: 0.85rem;
+      color: var(--color-text-muted);
+    }
+
+    .hero-image-wrapper {
+      position: relative;
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      box-shadow: var(--shadow-lg);
+      background-color: var(--bg-surface-subtle);
+      aspect-ratio: 4 / 3;
+    }
+    .hero-image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.8s ease;
+    }
+    .hero-image-wrapper:hover .hero-image {
+      transform: scale(1.03);
+    }
+    .hero-badge-overlay {
+      position: absolute;
+      bottom: 20px;
+      left: 20px;
+      background: rgba(255, 255, 255, 0.92);
+      backdrop-filter: blur(8px);
+      padding: 10px 18px;
+      border-radius: var(--radius-pill);
+      display: flex;
+      align-itemás: center;
+      gap: 8px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--color-forest);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .highlights {
+      padding: 30px 0 70px 0;
+    }
+    .highlights-card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-lg);
+      padding: 36px 40px;
+      box-shadow: var(--shadow-sm);
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 32px;
+    }
+    .highlight-item {
+      display: flex;
+      gap: 16px;
+      align-itemás: flex-start;
+    }
+    .highlight-icon {
+      width: 48px;
+      height: 48px;
+      border-radius: 12px;
+      background-color: var(--color-forest-soft);
+      color: var(--color-forest);
+      display: flex;
+      align-itemás: center;
+      justify-content: center;
+      font-size: 1.4rem;
+      flex-shrink: 0;
+    }
+    .highlight-title {
+      font-family: var(--font-serif);
+      font-size: 1.25rem;
+      font-weight: 600;
+      color: var(--color-forest);
+      margin-bottom: 4px;
+    }
+    .highlight-desc {
+      font-size: 0.88rem;
+      color: var(--color-text-muted);
+      line-height: 1.5;
+    }
+
+    .property-section {
+      padding: 90px 0;
+      background-color: var(--bg-surface-subtle);
+      border-top: 1px solid var(--border-subtle);
+      border-bottom: 1px solid var(--border-subtle);
+    }
+    .section-header {
+      text-align: center;
+      max-width: 680px;
+      margin: 0 auto 60px auto;
+    }
+    .section-subtitle {
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      color: var(--color-clay);
+      font-weight: 700;
+      margin-bottom: 12px;
+    }
+    .section-title {
+      font-size: clamp(2.2rem, 3.2vw, 3rem);
+      line-height: 1.15;
+      color: var(--color-forest-dark);
+      margin-bottom: 16px;
+    }
+    .section-desc {
+      font-size: 1.05rem;
+      color: var(--color-text-muted);
+      line-height: 1.7;
+    }
+
+    .story-grid {
+      display: grid;
+      grid-template-columns: 1.1fr 1fr;
+      gap: 60px;
+      align-itemás: center;
+      margin-bottom: 70px;
+    }
+    .story-content h3 {
+      font-size: 2.1rem;
+      margin-bottom: 18px;
+      color: var(--color-forest);
+    }
+    .story-content p {
+      color: var(--color-text-muted);
+      margin-bottom: 18px;
+      font-size: 1.02rem;
+    }
+    .story-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-top: 24px;
+    }
+    .story-list li {
+      display: flex;
+      align-itemás: center;
+      gap: 12px;
+      font-size: 0.95rem;
+      color: var(--color-text-main);
+      font-weight: 500;
+    }
+    .story-list li svg {
+      color: var(--color-forest);
+      flex-shrink: 0;
+    }
+
+    .story-image-card {
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      box-shadow: var(--shadow-md);
+      position: relative;
+    }
+    .story-image-card img {
+      width: 100%;
+      height: 420px;
+      object-fit: cover;
+      transition: transform 0.6s ease;
+    }
+    .story-image-card:hover img {
+      transform: scale(1.03);
+    }
+
+    .gallery-section {
+      padding: 100px 0;
+    }
+    .gallery-filters {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-bottom: 40px;
+      flex-wrap: wrap;
+    }
+    .filter-btn {
+      padding: 8px 20px;
+      border-radius: var(--radius-pill);
+      background: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      font-size: 0.88rem;
+      font-weight: 600;
+      color: var(--color-text-muted);
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+    .filter-btn:hover {
+      border-color: var(--color-forest);
+      color: var(--color-forest);
+    }
+    .filter-btn.active {
+      background: var(--color-forest);
+      color: #FFFFFF;
+      border-color: var(--color-forest);
+    }
+
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+    }
+    .gallery-item {
+      position: relative;
+      border-radius: var(--radius-md);
+      overflow: hidden;
+      background: var(--bg-surface-subtle);
+      aspect-ratio: 4 / 3;
+      cursor: pointer;
+      box-shadow: var(--shadow-sm);
+      transition: all 0.3s ease;
+    }
+    .gallery-item:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--shadow-lg);
+    }
+    .gallery-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.6s ease;
+    }
+    .gallery-item:hover img {
+      transform: scale(1.05);
+    }
+    .gallery-caption {
+      position: absolute;
+      inset: auto 0 0 0;
+      padding: 30px 20px 16px 20px;
+      background: linear-gradient(to top, rgba(30, 49, 38, 0.88) 0%, rgba(30, 49, 38, 0) 100%);
+      color: #FFFFFF;
+      transition: all 0.3s ease;
+    }
+    .gallery-caption-title {
+      font-family: var(--font-serif);
+      font-size: 1.22rem;
+      font-weight: 600;
+      line-height: 1.2;
+    }
+    .gallery-caption-sub {
+      font-size: 0.78rem;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      opacity: 0.85;
+      margin-top: 2px;
+    }
+
+    .lightbox-modal {
+      position: fixed;
+      inset: 0;
+      z-index: 1000;
+      background: rgba(18, 25, 21, 0.94);
+      backdrop-filter: blur(10px);
+      display: none;
+      align-itemás: center;
+      justify-content: center;
+      padding: 24px;
+    }
+    .lightbox-modal.active {
+      display: flex;
+    }
+    .lightbox-content {
+      position: relative;
+      max-width: 90vw;
+      max-height: 85vh;
+      display: flex;
+      flex-direction: column;
+      align-itemás: center;
+    }
+    .lightbox-image {
+      max-width: 100%;
+      max-height: 75vh;
+      object-fit: contain;
+      border-radius: var(--radius-sm);
+      box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+    }
+    .lightbox-caption {
+      color: #FFFFFF;
+      font-family: var(--font-serif);
+      font-size: 1.3rem;
+      margin-top: 16px;
+      text-align: center;
+    }
+    .lightbox-close {
+      position: absolute;
+      top: 24px;
+      right: 24px;
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.15);
+      color: #FFFFFF;
+      display: flex;
+      align-itemás: center;
+      justify-content: center;
+      cursor: pointer;
+      border: none;
+      font-size: 1.3rem;
+      transition: background 0.2s;
+    }
+    .lightbox-close:hover {
+      background: rgba(255, 255, 255, 0.3);
+    }
+    .lightbox-nav {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.15);
+      color: #FFFFFF;
+      display: flex;
+      align-itemás: center;
+      justify-content: center;
+      cursor: pointer;
+      border: none;
+      font-size: 1.4rem;
+      transition: background 0.2s;
+    }
+    .lightbox-nav:hover {
+      background: rgba(255, 255, 255, 0.3);
+    }
+    .lightbox-prev { left: 24px; }
+    .lightbox-next { right: 24px; }
+
+    .amenities-section {
+      padding: 90px 0;
+      background-color: var(--color-forest-soft);
+      border-top: 1px solid rgba(43, 67, 53, 0.1);
+      border-bottom: 1px solid rgba(43, 67, 53, 0.1);
+    }
+    .amenities-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 30px;
+    }
+    .amenity-card {
+      background: var(--bg-surface);
+      border-radius: var(--radius-lg);
+      padding: 36px 32px;
+      box-shadow: var(--shadow-sm);
+      border: 1px solid rgba(43, 67, 53, 0.08);
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      transition: transform 0.3s ease;
+    }
+    .amenity-card:hover {
+      transform: translateY(-4px);
+    }
+    .amenity-icon-badge {
+      width: 52px;
+      height: 52px;
+      border-radius: 14px;
+      background-color: var(--color-clay-soft);
+      color: var(--color-clay-dark);
+      display: flex;
+      align-itemás: center;
+      justify-content: center;
+      font-size: 1.6rem;
+    }
+    .amenity-card h4 {
+      font-size: 1.55rem;
+      color: var(--color-forest);
+      line-height: 1.2;
+    }
+    .amenity-card p {
+      color: var(--color-text-muted);
+      font-size: 0.95rem;
+      line-height: 1.6;
+    }
+
+    .specs-section {
+      padding: 90px 0;
+    }
+    .specs-grid {
+      display: grid;
+      grid-template-columns: 1.15fr 0.85fr;
+      gap: 40px;
+      align-itemás: start;
+    }
+    .specs-table-card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-lg);
+      padding: 36px;
+      box-shadow: var(--shadow-sm);
+    }
+    .specs-table-title {
+      font-size: 1.6rem;
+      color: var(--color-forest);
+      margin-bottom: 24px;
+      display: flex;
+      align-itemás: center;
+      gap: 12px;
+    }
+    .specs-row {
+      display: flex;
+      justify-content: space-between;
+      padding: 13px 0;
+      border-bottom: 1px solid var(--bg-surface-subtle);
+      font-size: 0.94rem;
+    }
+    .specs-row:last-child {
+      border-bottom: none;
+    }
+    .specs-label {
+      color: var(--color-text-muted);
+      font-weight: 500;
+    }
+    .specs-val {
+      font-weight: 600;
+      color: var(--color-forest-dark);
+      text-align: right;
+    }
+
+    .pricing-card {
+      background: linear-gradient(135deg, var(--color-forest) 0%, var(--color-forest-dark) 100%);
+      color: #FFFFFF;
+      border-radius: var(--radius-lg);
+      padding: 40px;
+      box-shadow: var(--shadow-lg);
+      position: sticky;
+      top: 100px;
+    }
+    .pricing-card h3 {
+      color: #FFFFFF;
+      font-size: 1.8rem;
+      margin-bottom: 8px;
+    }
+    .pricing-card-subtitle {
+      color: rgba(255, 255, 255, 0.8);
+      font-size: 0.9rem;
+      margin-bottom: 24px;
+    }
+    .pricing-uf-box {
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      border-radius: var(--radius-md);
+      padding: 20px 24px;
+      margin-bottom: 24px;
+    }
+    .pricing-uf-val {
+      font-family: var(--font-serif);
+      font-size: 3rem;
+      font-weight: 700;
+      line-height: 1;
+      color: #FFFFFF;
+    }
+    .pricing-uf-sub {
+      font-size: 0.85rem;
+      opacity: 0.85;
+      margin-top: 6px;
+    }
+    .pricing-itemás {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-bottom: 32px;
+    }
+    .pricing-itemás li {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.92rem;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      padding-bottom: 8px;
+    }
+    .pricing-itemás li span.label {
+      opacity: 0.8;
+    }
+    .pricing-itemás li span.val {
+      font-weight: 600;
+    }
+
+    .location-banner {
+      background-color: var(--bg-surface-subtle);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-lg);
+      padding: 40px;
+      margin-bottom: 80px;
+      display: grid;
+      grid-template-columns: 1.2fr 1fr;
+      gap: 40px;
+      align-itemás: center;
+    }
+    .location-info h3 {
+      font-size: 2rem;
+      color: var(--color-forest);
+      margin-bottom: 16px;
+    }
+    .location-info p {
+      color: var(--color-text-muted);
+      margin-bottom: 16px;
+    }
+    .distance-pills {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+    .distance-pill {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      padding: 8px 16px;
+      border-radius: var(--radius-pill);
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--color-forest);
+    }
+
+    .contact-section {
+      padding: 100px 0;
+      background: linear-gradient(to bottom, var(--bg-cream) 0%, var(--bg-surface-subtle) 100%);
+    }
+    .contact-box {
+      max-width: 840px;
+      margin: 0 auto;
+      background: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-lg);
+      padding: 56px 48px;
+      box-shadow: var(--shadow-lg);
+      text-align: center;
+    }
+    .contact-box h2 {
+      font-size: clamp(2.4rem, 3.5vw, 3.2rem);
+      color: var(--color-forest-dark);
+      margin-bottom: 16px;
+    }
+    .contact-box p {
+      font-size: 1.1rem;
+      color: var(--color-text-muted);
+      max-width: 580px;
+      margin: 0 auto 36px auto;
+    }
+    .contact-actions {
+      display: flex;
+      justify-content: center;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+
+    .contact-direct-card {
+      display: flex;
+      justify-content: center;
+      align-itemás: center;
+      gap: 40px;
+      margin-top: 40px;
+      padding-top: 32px;
+      border-top: 1px solid var(--border-subtle);
+    }
+    .direct-item {
+      display: flex;
+      align-itemás: center;
+      gap: 12px;
+      color: var(--color-forest);
+      font-weight: 600;
+      font-size: 0.95rem;
+    }
+    .direct-item svg {
+      color: var(--color-clay);
+    }
+
+    footer {
+      background: var(--color-forest-dark);
+      color: rgba(255, 255, 255, 0.7);
+      padding: 50px 0 30px 0;
+      font-size: 0.88rem;
+    }
+    .footer-container {
+      display: flex;
+      justify-content: space-between;
+      align-itemás: center;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      padding-bottom: 30px;
+      margin-bottom: 24px;
+    }
+    .footer-brand {
+      font-family: var(--font-serif);
+      font-size: 1.5rem;
+      color: #FFFFFF;
+    }
+    .footer-links {
+      display: flex;
+      gap: 24px;
+    }
+    .footer-links a {
+      color: rgba(255, 255, 255, 0.7);
+      transition: color 0.2s;
+    }
+    .footer-links a:hover {
+      color: #FFFFFF;
+    }
+    .footer-copy {
+      text-align: center;
+      font-size: 0.8rem;
+      color: rgba(255, 255, 255, 0.4);
+    }
+
+    .floating-wa {
+      position: fixed;
+      bottom: 28px;
+      right: 28px;
+      z-index: 99;
+      display: flex;
+      align-itemás: center;
+      gap: 10px;
+      background-color: #25D366;
+      color: #FFFFFF;
+      padding: 14px 22px;
+      border-radius: var(--radius-pill);
+      font-weight: 700;
+      font-size: 0.92rem;
+      box-shadow: 0 8px 24px rgba(37, 211, 102, 0.4);
+      transition: all 0.3s ease;
+      text-decoration: none;
+    }
+    .floating-wa:hover {
+      transform: translateY(-3px) scale(1.03);
+      box-shadow: 0 12px 30px rgba(37, 211, 102, 0.55);
+      color: #FFFFFF;
+    }
+    .floating-wa svg {
+      width: 22px;
+      height: 22px;
+      fill: currentColor;
+    }
+
+    @media (max-width: 992px) {
+      .hero-grid { grid-template-columns: 1fr; gap: 40px; }
+      .highlights-card { grid-template-columns: repeat(2, 1fr); }
+      .story-grid { grid-template-columns: 1fr; gap: 36px; }
+      .amenities-grid { grid-template-columns: 1fr; }
+      .specs-grid { grid-template-columns: 1fr; }
+      .location-banner { grid-template-columns: 1fr; }
+      .gallery-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+
+    @media (max-width: 640px) {
+      .nav-links { display: none; }
+      .highlights-card { grid-template-columns: 1fr; padding: 24px; }
+      .gallery-grid { grid-template-columns: 1fr; }
+      .contact-direct-card { flex-direction: column; gap: 16px; }
+      .floating-wa span { display: none; }
+      .floating-wa { padding: 16px; border-radius: 50%; bottom: 20px; right: 20px; }
+    }
+  
+    /* Modal de Requisitos */
+    .req-modal {
+      position: fixed;
+      inset: 0;
+      z-index: 1001;
+      background: rgba(18, 25, 21, 0.78);
+      backdrop-filter: blur(8px);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+    .req-modal.active {
+      display: flex;
+    }
+    .req-modal-box {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-lg);
+      max-width: 560px;
+      width: 100%;
+      padding: 36px 32px;
+      position: relative;
+      box-shadow: var(--shadow-lg);
+      animation: modalFadeIn 0.25s ease;
+    }
+    @keyframes modalFadeIn {
+      from { opacity: 0; transform: translateY(12px) scale(0.98); }
+      to { opacity: 1; transform: translateY(0) scale(1); }
+    }
+    .req-modal-close {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      background: var(--bg-surface-subtle);
+      border: 1px solid var(--border-subtle);
+      color: var(--color-forest);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.1rem;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .req-modal-close:hover {
+      background: var(--color-forest-soft);
+      color: var(--color-forest-dark);
+    }
+    .req-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin: 22px 0 26px 0;
+    }
+    .req-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
+      padding: 14px 16px;
+      border-radius: var(--radius-md);
+      background: var(--bg-cream);
+      border: 1px solid var(--border-subtle);
+    }
+    .req-icon-wrap {
+      width: 38px;
+      height: 38px;
+      border-radius: 10px;
+      background-color: var(--color-forest-soft);
+      color: var(--color-forest);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.2rem;
+      flex-shrink: 0;
+    }
+    .req-item h4 {
+      font-size: 1rem;
+      color: var(--color-forest);
+      margin-bottom: 2px;
+      font-family: var(--font-sans);
+      font-weight: 600;
+    }
+    .req-item p {
+      font-size: 0.9rem;
+      color: var(--color-text-muted);
+      line-height: 1.45;
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- Header / Barra de Navegación -->
+  <header>
+    <div class="container nav-container">
+      <a href="#" class="nav-brand">
+        <span class="nav-brand-title">Hacienda El Belloto</span>
+        <span class="nav-brand-sub">Paine · Casa en Arriendo</span>
+      </a>
+
+      <nav class="nav-links">
+        <a href="#la-casa" class="nav-link">La Casa</a>
+        <a href="#galeria" class="nav-link">Galería</a>
+        <a href="#el-entorno" class="nav-link">El Entorno</a>
+        <a href="#ficha-tecnica" class="nav-link">Ficha Técnica</a>
+        <a href="#condiciones" class="nav-link">Valores</a>
+        <a href="javascript:void(0)" onclick="openRequirements()" class="nav-link" style="color: var(--color-clay); font-weight: 600;">📋 Requisitos</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="https://wa.me/56990815012?text=Hola%2C%20me%20interesa%20conocer%20m%C3%A1s%20sobre%20la%20casa%20en%20arriendo%20en%20Hacienda%20El%20Belloto." target="_blank" class="btn btn-primary" style="padding: 10px 20px; font-size: 0.88rem;">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+          <span>WhatsApp</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Principal -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+          <span class="badge badge-forest">Casa Nueva · 1 Año</span>
+          <span class="badge badge-clay">Hacienda El Belloto</span>
+          <span class="badge badge-forest">Seguridad 24/7</span>
+        </div>
+
+        <h1 class="hero-title">
+          Tu refugio natural en el bosque nativo, <span>a 1.15 hr de Santiago.</span>
+        </h1>
+
+        <p class="hero-desc">
+          Vive la tranquilidad y el aire puro en una parcela plana de <strong>1.500 m²</strong> rodeada de boldos, quillayes y litres. Disfruta de una casa contemporánea con marina náutica privada en Aculeo, club house con piscina y 500 hectáreas de reserva natural protegida.
+        </p>
+
+        <div class="hero-stats-row">
+          <div class="hero-stat-item">
+            <span class="hero-stat-value">3</span>
+            <span class="hero-stat-label">Dormitorios</span>
+          </div>
+          <div class="hero-stat-item">
+            <span class="hero-stat-value">2</span>
+            <span class="hero-stat-label">Baños (Suite)</span>
+          </div>
+          <div class="hero-stat-item">
+            <span class="hero-stat-value">1.500</span>
+            <span class="hero-stat-label">m² Parcela</span>
+          </div>
+          <div class="hero-stat-item">
+            <span class="hero-stat-value">1 Año</span>
+            <span class="hero-stat-label">Construcción</span>
+          </div>
+        </div>
+
+        <div style="display: flex; align-itemás: center; gap: 16px; flex-wrap: wrap; margin-top: 8px;">
+          <div class="hero-price-tag">
+            <span class="hero-price-uf">17.5 UF</span>
+            <span class="hero-price-sub">/ mes · Arriendo mensual</span>
+          </div>
+          <a href="https://wa.me/56990815012?text=Hola%2C%20quisiera%20coordinar%20una%20visita%20para%20la%20casa%20en%20arriendo%20en%20Hacienda%20El%20Belloto." target="_blank" class="btn btn-clay">
+            Agendar Visita
+          </a>
+        </div>
+      </div>
+
+      <!-- Imagen Portada Hero -->
+      <div class="hero-image-wrapper">
+        <img src="fotos_web/hero_fachada.jpeg" alt="Fachada exterior de la casa en Hacienda El Belloto" class="hero-image" />
+        <div class="hero-badge-overlay">
+          <span>🌿</span>
+          <span>Bosque Nativo y Jardineras de Piedra</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Puntos Clave / Resumen Rápido -->
+  <section class="highlights">
+    <div class="container">
+      <div class="highlights-card">
+        <div class="highlight-item">
+          <div class="highlight-icon">🌲</div>
+          <div>
+            <div class="highlight-title">1.500 m² Terreno</div>
+            <p class="highlight-desc">Parcela plana cercada perimetralmente con boldos, litres y quillayes nativos.</p>
+          </div>
+        </div>
+
+        <div class="highlight-item">
+          <div class="highlight-icon">⛵</div>
+          <div>
+            <div class="highlight-title">Marina Exclusiva</div>
+            <p class="highlight-desc">Acceso náutico privado reservado únicamente para residentes de la hacienda.</p>
+          </div>
+        </div>
+
+        <div class="highlight-item">
+          <div class="highlight-icon">🏊‍♂️</div>
+          <div>
+            <div class="highlight-title">Club House & Piscina</div>
+            <p class="highlight-desc">Piscina comunitaria, camarines y sectores habilitados para picnic y asados.</p>
+          </div>
+        </div>
+
+        <div class="highlight-item">
+          <div class="highlight-icon">🛡️</div>
+          <div>
+            <div class="highlight-title">Seguridad 24/7</div>
+            <p class="highlight-desc">Acceso controlado, patrullaje móvil permanente y personal de mantención calificado.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección La Casa: Relato Editorial y Espacios -->
+  <section id="la-casa" class="property-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Arquitectura & Confort</span>
+        <h2 class="section-title">Espacios diseñados para habitar en armonía con el entorno</h2>
+        <p class="section-desc">
+          Construida hace sólo un año, la propiedad destaca por su distribución funcional, abundante iluminación natural y una conexión fluida entre el área social y la terraza exterior.
+        </p>
+      </div>
+
+      <!-- Historia 1: Área Social y Terraza -->
+      <div class="story-grid">
+        <div class="story-content">
+          <span class="badge badge-clay" style="margin-bottom: 12px;">Área Social Integrada</span>
+          <h3>Living, Comedor y Cocina Americana</h3>
+          <p>
+            El área principal se concibe como un gran espacio abierto donde convergen la luz de los ventanales y la vista al bosque. La cocina americana permite compartir mientras se cocina, equipada con barra para desayunar y amplios mesones.
+          </p>
+          <p>
+            Desde el living se accede de manera directa a una generosa <strong>terraza techada con deck de madera</strong>, pensada para almorzar al aire libre, leer y contemplar la puesta de sol sobre las lomas de la cordillera de la costa.
+          </p>
+          <ul class="story-list">
+            <li>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg>
+              Cocina de concepto abierto con mesones y almacenamiento
+            </li>
+            <li>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg>
+              Terraza techada con vista despejada a los cerros
+            </li>
+            <li>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg>
+              Ventilación cruzada y excelente luminosidad todo el día
+            </li>
+          </ul>
+        </div>
+        <div class="story-image-card">
+          <img src="fotos_web/living_comedor.jpeg" alt="Living Comedor amoblado con vista al jardín" />
+        </div>
+      </div>
+
+      <!-- Historia 2: Dormitorio Principal y Descanso -->
+      <div class="story-grid" style="margin-bottom: 0;">
+        <div class="story-image-card">
+          <img src="fotos_web/dormitorio_principal.jpeg" alt="Dormitorio principal en suite amoblado" />
+        </div>
+        <div class="story-content">
+          <span class="badge badge-forest" style="margin-bottom: 12px;">Descanso & Privacidad</span>
+          <h3>Suite Principal y Habitaciones</h3>
+          <p>
+            El dormitorio principal cuenta con baño privado en suite y clóset, orientado hacia una vista silenciosa que asegura noches frescas y reparadoras.
+          </p>
+          <p>
+            Los dos dormitorios secundarios comparten baño completo. Perfectos para familia, home office o recibir visitas con total independencia.
+          </p>
+          <ul class="story-list">
+            <li>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg>
+              3 Dormitorios totales con excelente orientación solar
+            </li>
+            <li>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg>
+              2 Baños completos con finas terminaciones
+            </li>
+            <li>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg>
+              Ambiente acústico inmejorable, sin ruidos de ciudad
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Galería Curada (Menos es Más) -->
+  <section id="galeria" class="gallery-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Recorrido Fotográfico</span>
+        <h2 class="section-title">Una mirada a cada rincón</h2>
+        <p class="section-desc">
+          Selección precisa de fotografías que muestran el estado impecable de la casa, su mobiliario acogedor y su mágico entorno.
+        </p>
+      </div>
+
+      <div class="gallery-filters">
+        <button class="filter-btn active" data-filter="all">Todas las Fotos</button>
+        <button class="filter-btn" data-filter="interior">Interiores Amoblados</button>
+        <button class="filter-btn" data-filter="exterior">Terraza & Exterior</button>
+      </div>
+
+      <div class="gallery-grid">
+        <div class="gallery-item" data-category="exterior" onclick="openLightbox(0)">
+          <img src="fotos_web/hero_fachada.jpeg" alt="Fachada y jardineras de piedra natural" loading="lazy" />
+          <div class="gallery-caption">
+            <div class="gallery-caption-title">Fachada Exterior</div>
+            <div class="gallery-caption-sub">Jardineras de piedra & Bosque nativo</div>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="interior" onclick="openLightbox(1)">
+          <img src="fotos_web/living_comedor.jpeg" alt="Living comedor amoblado con vista" loading="lazy" />
+          <div class="gallery-caption">
+            <div class="gallery-caption-title">Living y Comedor</div>
+            <div class="gallery-caption-sub">Espacio amoblado amplio y cálido</div>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="exterior" onclick="openLightbox(2)">
+          <img src="fotos_web/terraza_vista.jpeg" alt="Terraza con vista al valle y cerros" loading="lazy" />
+          <div class="gallery-caption">
+            <div class="gallery-caption-title">Terraza Techada</div>
+            <div class="gallery-caption-sub">Vista panorámica al entorno natural</div>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="interior" onclick="openLightbox(3)">
+          <img src="fotos_web/dormitorio_principal.jpeg" alt="Dormitorio principal en suite" loading="lazy" />
+          <div class="gallery-caption">
+            <div class="gallery-caption-title">Dormitorio Principal Suite</div>
+            <div class="gallery-caption-sub">Cama amoblada, baño privado y vista</div>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="interior" onclick="openLightbox(4)">
+          <img src="fotos_web/cocina_integrada.jpeg" alt="Cocina americana integrada" loading="lazy" />
+          <div class="gallery-caption">
+            <div class="gallery-caption-title">Cocina Americana</div>
+            <div class="gallery-caption-sub">Concepto integrado al área social</div>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="interior" onclick="openLightbox(5)">
+          <img src="fotos_web/dormitorio_secundario.jpeg" alt="Segundo dormitorio amoblado" loading="lazy" />
+          <div class="gallery-caption">
+            <div class="gallery-caption-title">Segundo Dormitorio</div>
+            <div class="gallery-caption-sub">Amoblado con luz natural</div>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="interior" onclick="openLightbox(6)">
+          <img src="fotos_web/dormitorio_3.jpeg" alt="Tercer dormitorio" loading="lazy" />
+          <div class="gallery-caption">
+            <div class="gallery-caption-title">Tercer Dormitorio</div>
+            <div class="gallery-caption-sub">Espacio versátil para descanso o trabajo</div>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="interior" onclick="openLightbox(7)">
+          <img src="fotos_web/bano_suite.jpeg" alt="Baño en suite con finas terminaciones" loading="lazy" />
+          <div class="gallery-caption">
+            <div class="gallery-caption-title">Baño en Suite</div>
+            <div class="gallery-caption-sub">Impecable y funcional</div>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="exterior" onclick="openLightbox(8)">
+          <img src="fotos_web/acceso_parcela.jpeg" alt="Acceso vehicular y explanada de estacionamientos" loading="lazy" />
+          <div class="gallery-caption">
+            <div class="gallery-caption-title">Acceso & Parcela</div>
+            <div class="gallery-caption-sub">Gran explanada para estacionamientos</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox Modal -->
+  <div id="lightbox" class="lightbox-modal" onclick="closeLightbox(event)">
+    <button class="lightbox-close" onclick="closeLightbox(event)">✕</button>
+    <button class="lightbox-nav lightbox-prev" onclick="prevLightbox(event)">‹</button>
+    <button class="lightbox-nav lightbox-next" onclick="nextLightbox(event)">›</button>
+    <div class="lightbox-content">
+      <img id="lightbox-img" src="" alt="" class="lightbox-image" />
+      <div id="lightbox-cap" class="lightbox-caption"></div>
+    </div>
+  </div>
+
+  <!-- El Entorno: Hacienda El Belloto -->
+  <section id="el-entorno" class="amenities-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Comunidad & Vida al Aire Libre</span>
+        <h2 class="section-title">Los privilegios de vivir en Hacienda El Belloto</h2>
+        <p class="section-desc">
+          Mucho más que una casa: es el acceso a un condominio campestre consolidado con equipamiento recreativo de primer nivel y 500 hectáreas de naturaleza protegida.
+        </p>
+      </div>
+
+      <div class="amenities-grid">
+        <div class="amenity-card">
+          <div class="amenity-icon-badge">⛵</div>
+          <h4>Marina Exclusiva</h4>
+          <p>
+            Embarcadero y acceso náutico directo reservado para los propietarios y arrendatarios de Hacienda El Belloto. Ideal para navegación, kayak, paddle surf y disfrutar de la Laguna de Aculeo.
+          </p>
+        </div>
+
+        <div class="amenity-card">
+          <div class="amenity-icon-badge">🏊‍♂️</div>
+          <h4>Club House & Piscina</h4>
+          <p>
+            Área social comunitaria con gran piscina, camarines, sectores de picnic con quinchos para asados y extensos jardines para celebraciones familiares y descanso de fin de semana.
+          </p>
+        </div>
+
+        <div class="amenity-card">
+          <div class="amenity-icon-badge">🥾</div>
+          <h4>500 Hectáreas Protegidas</h4>
+          <p>
+            Un pulmón verde único con senderos de trekking, flora y fauna nativa protegida (zorros culpeo, peucos, codornices). Paseos seguros para caminatas familiares y bicicleta de montaña.
+          </p>
+        </div>
+
+        <div class="amenity-card">
+          <div class="amenity-icon-badge">🛡️</div>
+          <h4>Seguridad y Control 24/7</h4>
+          <p>
+            Pórtico de acceso controlado las 24 horas del día, móvil de patrullaje permanente y cuadrilla de mantención interna de caminos e infraestructura.
+          </p>
+        </div>
+
+        <div class="amenity-card">
+          <div class="amenity-icon-badge">🌿</div>
+          <h4>Biodiversidad en Tu Parcela</h4>
+          <p>
+            Los 1.500 m² de la propiedad cuentan con especies nativas adultas: boldos aromáticos, quillayes y litres, acompañados de jardineras construidas con piedra del lugar.
+          </p>
+        </div>
+
+        <div class="amenity-card">
+          <div class="amenity-icon-badge">📍</div>
+          <h4>Cercanía a Santiago</h4>
+          <p>
+            A tan sólo 1 hora y 15 minutos de la capital por autopista expedita. La distancia perfecta para vivir de manera permanente o disfrutar como segunda vivienda de ensueño.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Ficha Técnica & Condiciones Económicas -->
+  <section id="ficha-tecnica" class="specs-section">
+    <div class="container">
+      <div class="specs-grid">
+        <!-- Tabla de Especificaciones -->
+        <div class="specs-table-card">
+          <h3 class="specs-table-title">
+            <span>📋</span> Ficha Técnica de la Propiedad
+          </h3>
+
+          <div class="specs-row">
+            <span class="specs-label">Tipo de Propiedad</span>
+            <span class="specs-val">Casa en Parcela Independiente</span>
+          </div>
+          <div class="specs-row">
+            <span class="specs-label">Antigüedad</span>
+            <span class="specs-val">Casa Nueva (1 año de construcción y uso)</span>
+          </div>
+          <div class="specs-row">
+            <span class="specs-label">Superficie Terreno</span>
+            <span class="specs-val">1.500 m² (Terreno principalmente plano)</span>
+          </div>
+          <div class="specs-row">
+            <span class="specs-label">Distribución</span>
+            <span class="specs-val">3 Dormitorios · 2 Baños (Principal en Suite)</span>
+          </div>
+          <div class="specs-row">
+            <span class="specs-label">Cocina</span>
+            <span class="specs-val">Americana integrada a living comedor</span>
+          </div>
+          <div class="specs-row">
+            <span class="specs-label">Exterior & Terrazas</span>
+            <span class="specs-val">Terraza techada con deck + Jardineras de piedra</span>
+          </div>
+          <div class="specs-row">
+            <span class="specs-label">Cierre Perimetral</span>
+            <span class="specs-val">Cerrada perimetralmente en su totalidad</span>
+          </div>
+          <div class="specs-row">
+            <span class="specs-label">Estacionamientos</span>
+            <span class="specs-val">Gran explanada para múltiples vehículos</span>
+          </div>
+          <div class="specs-row">
+            <span class="specs-label">Agua Caliente & Gas</span>
+            <span class="specs-val">2 balones gas 45 kg + 2 Calefones independientes</span>
+          </div>
+          <div class="specs-row">
+            <span class="specs-label">Alcantarillado</span>
+            <span class="specs-val">Fosa séptica según norma sanitaria</span>
+          </div>
+          <div class="specs-row">
+            <span class="specs-label">Agua Potable y Luz</span>
+            <span class="specs-val">Cobro según consumo variable por administración</span>
+          </div>
+        </div>
+
+        <!-- Tarjeta de Condiciones y Valores -->
+        <div id="condiciones">
+          <div class="pricing-card">
+            <span class="badge badge-clay" style="margin-bottom: 12px; background: rgba(255,255,255,0.15); color: #FFF; border-color: rgba(255,255,255,0.3);">
+              Condición de Arriendo
+            </span>
+            <h3>Transparencia y Claridad</h3>
+            <p class="pricing-card-subtitle">
+              Valor mensual fijado en Unidades de Fomento (UF).
+            </p>
+
+            <div class="pricing-uf-box">
+              <div class="pricing-uf-val">17.5 UF</div>
+              <div class="pricing-uf-sub">Canon de Arriendo Mensual</div>
+            </div>
+
+            <ul class="pricing-itemás">
+              <li>
+                <span class="label">Gasto Común:</span>
+                <span class="val">$112.000 / mes</span>
+              </li>
+              <li>
+                <span class="label">Incluye Gasto Común:</span>
+                <span class="val">Seguridad 24/7, Marina, Club House</span>
+              </li>
+              <li>
+                <span class="label">Servicios Básicos:</span>
+                <span class="val">Consumo variable medido</span>
+              </li>
+              <li>
+                <span class="label">Disponibilidad:</span>
+                <span class="val">Inmediata</span>
+              </li>
+            </ul>
+
+            <button type="button" onclick="openRequirements()" class="btn" style="width: 100%; margin-bottom: 12px; background: rgba(255,255,255,0.18); color: #FFFFFF; border: 1px solid rgba(255,255,255,0.32); backdrop-filter: blur(4px); cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 8px;">
+              <span>📋</span> <span>Ver Requisitos de Arriendo</span>
+            </button>
+            <a href="https://wa.me/56990815012?text=Hola%2C%20quisiera%20coordinar%20una%20visita%20para%20la%20casa%20en%20arriendo%20en%20Hacienda%20El%20Belloto." target="_blank" class="btn btn-clay" style="width: 100%;">
+              Agendar Visita por WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Banner de Ubicación y Conectividad -->
+  <section class="container">
+    <div class="location-banner">
+      <div class="location-info">
+        <span class="badge badge-forest" style="margin-bottom: 12px;">Conectividad & Ruta</span>
+        <h3>Ubicación Estratégica en Paine</h3>
+        <p>
+          Hacienda El Belloto se sitúa en un enclave natural privilegiado de la comuna de Paine, en el sector de Aculeo. Con acceso fluido por Autopista del Maipo (Ruta 5 Sur) y Ruta Acceso Sur.
+        </p>
+        <p>
+          Disfruta de la calma absoluta del campo sin desconectarte de los servicios esenciales de Paine, Buin y Santiago.
+        </p>
+        <div class="distance-pills">
+          <div class="distance-pill">🚗 1h 15m de Santiago Centro</div>
+          <div class="distance-pill">🛒 10 min de Comercio y Supermercados</div>
+          <div class="distance-pill">🌲 En plena Cordillera de la Costa</div>
+        </div>
+      </div>
+      <div>
+        <div style="background: var(--bg-surface); padding: 24px; border-radius: var(--radius-md); border: 1px solid var(--border-subtle); text-align: center;">
+          <div style="font-size: 2.2rem; margin-bottom: 8px;">🌐</div>
+          <h4 style="font-size: 1.3rem; margin-bottom: 6px;">Sitio Oficial de la Parcelación</h4>
+          <p style="font-size: 0.9rem; color: var(--color-text-muted); margin-bottom: 16px;">
+            Conoce más sobre la historia, reglamentos y entorno de Hacienda El Belloto.
+          </p>
+          <a href="https://www.haciendaelbelloto.cl/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="font-size: 0.85rem; padding: 10px 20px;">
+            Visitar haciendaelbelloto.cl ↗
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contacto & Llamado a la Acción Principal -->
+  <section id="contacto" class="contact-section">
+    <div class="container">
+      <div class="contact-box">
+        <span class="badge badge-clay" style="margin-bottom: 16px;">¿¿Te gustaría visitarla?</span>
+        <h2>Coordina tu visita personalizada</h2>
+        <p>
+          Estaremos encantados de resolver tus dudas, entregarte los antecedentes y coordinar un día para recorrer la casa, la parcela y las instalaciones de la hacienda.
+        </p>
+
+        <div class="contact-actions">
+          <a href="https://wa.me/56990815012?text=Hola%2C%20me%20interesa%20arrendar%20la%20casa%20en%20Hacienda%20El%20Belloto.%20%C2%BFPodemos%20coordinar%20una%20visita%3F" target="_blank" class="btn btn-primary" style="padding: 16px 36px; font-size: 1.05rem;">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+            <span>Escribir por WhatsApp</span>
+          </a>
+
+          <a href="mailto:casanido2020@gmail.com?subject=Consulta%20Arriendo%20Casa%20Hacienda%20El%20Belloto&body=Hola%2C%20quisiera%20recibir%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20arriendo%20de%20la%20casa%20en%20Hacienda%20El%20Belloto." class="btn btn-secondary" style="padding: 16px 32px; font-size: 1.05rem;">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <span>Enviar Correo</span>
+          </a>
+        </div>
+
+        <div class="contact-direct-card">
+          <a href="tel:+56990815012" class="direct-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            <span>+569 9081 5012</span>
+          </a>
+
+          <a href="mailto:casanido2020@gmail.com" class="direct-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <span>casanido2020@gmail.com</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-container">
+        <div>
+          <div class="footer-brand">Hacienda El Belloto</div>
+          <div style="font-size: 0.8rem; color: rgba(255, 255, 255, 0.5); margin-top: 4px;">Paine, Región Metropolitana · Chile</div>
+        </div>
+        <div class="footer-links">
+          <a href="#la-casa">La Casa</a>
+          <a href="#galeria">Galería</a>
+          <a href="#el-entorno">Hacienda</a>
+          <a href="#condiciones">Valores</a>
+          <a href="#contacto">Contacto</a>
+        </div>
+      </div>
+      <div class="footer-copy">
+        © 2026 Hacienda El Belloto · Arriendo de Propiedad Exclusiva.
+      </div>
+    </div>
+  </footer>
+
+  <!-- Botón Flotante WhatsApp -->
+  <a href="https://wa.me/56990815012?text=Hola%2C%20me%20interesa%20conocer%20m%C3%A1s%20sobre%20la%20casa%20en%20arriendo%20en%20Hacienda%20El%20Belloto." target="_blank" class="floating-wa" title="Contactar por WhatsApp">
+    <svg viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+    <span>Consultar por WhatsApp</span>
+  </a>
+
+  <!-- JavaScript para Filtros y Lightbox -->
+  <script>
+    const galleryData = [
+      { src: 'fotos_web/hero_fachada.jpeg', title: 'Fachada Exterior', sub: 'Jardineras de piedra & Bosque nativo' },
+      { src: 'fotos_web/living_comedor.jpeg', title: 'Living y Comedor', sub: 'Espacio amoblado amplio y cálido' },
+      { src: 'fotos_web/terraza_vista.jpeg', title: 'Terraza Techada', sub: 'Vista panorámica al entorno natural' },
+      { src: 'fotos_web/dormitorio_principal.jpeg', title: 'Dormitorio Principal Suite', sub: 'Cama amoblada, baño privado y vista' },
+      { src: 'fotos_web/cocina_integrada.jpeg', title: 'Cocina Americana', sub: 'Concepto integrado al área social' },
+      { src: 'fotos_web/dormitorio_secundario.jpeg', title: 'Segundo Dormitorio', sub: 'Amoblado con luz natural' },
+      { src: 'fotos_web/dormitorio_3.jpeg', title: 'Tercer Dormitorio', sub: 'Espacio versátil para descanso o trabajo' },
+      { src: 'fotos_web/bano_suite.jpeg', title: 'Baño en Suite', sub: 'Impecable y funcional' },
+      { src: 'fotos_web/acceso_parcela.jpeg', title: 'Acceso & Parcela', sub: 'Gran explanada para estacionamientos' }
+    ];
+
+    let currentLightboxIdx = 0;
+
+    function openLightbox(idx) {
+      currentLightboxIdx = idx;
+      updateLightboxContent();
+      const modal = document.getElementById('lightbox');
+      modal.classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeLightbox(e) {
+      if (e) e.stopPropagation();
+      const modal = document.getElementById('lightbox');
+      modal.classList.remove('active');
+      document.body.style.overflow = '';
+    }
+
+    function updateLightboxContent() {
+      const item = galleryData[currentLightboxIdx];
+      const img = document.getElementById('lightbox-img');
+      const cap = document.getElementById('lightbox-cap');
+      img.src = item.src;
+      img.alt = item.title;
+      cap.innerHTML = `<strong>${item.title}</strong> — <span style="opacity:0.85">${item.sub}</span>`;
+    }
+
+    function nextLightbox(e) {
+      if (e) e.stopPropagation();
+      currentLightboxIdx = (currentLightboxIdx + 1) % galleryData.length;
+      updateLightboxContent();
+    }
+
+    function prevLightbox(e) {
+      if (e) e.stopPropagation();
+      currentLightboxIdx = (currentLightboxIdx - 1 + galleryData.length) % galleryData.length;
+      updateLightboxContent();
+    }
+
+    window.addEventListener('keydown', (e) => {
+      const modal = document.getElementById('lightbox');
+      if (!modal.classList.contains('active')) return;
+      if (e.key === 'Escape') closeLightbox();
+      if (e.key === 'ArrowRight') nextLightbox();
+      if (e.key === 'ArrowLeft') prevLightbox();
+    });
+
+    const filterButtons = document.querySelectorAll('.filter-btn');
+    const galleryItemás = document.querySelectorAll('.gallery-item');
+
+    filterButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        filterButtons.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        const filter = btn.getAttribute('data-filter');
+
+        galleryItemás.forEach(item => {
+          if (filter === 'all' || item.getAttribute('data-category') === filter) {
+            item.style.display = 'block';
+          } else {
+            item.style.display = 'none';
+          }
+        });
+      });
+    });
+  
+    function openRequirements() {
+      const m = document.getElementById('req-modal');
+      if (m) {
+        m.classList.add('active');
+        document.body.style.overflow = 'hidden';
+      }
+    }
+    function closeRequirements(e) {
+      if (e) e.stopPropagation();
+      const m = document.getElementById('req-modal');
+      if (m) {
+        m.classList.remove('active');
+        document.body.style.overflow = '';
+      }
+    }
+    window.addEventListener('keydown', (e) => {
+      const m = document.getElementById('req-modal');
+      if (m && m.classList.contains('active') && e.key === 'Escape') {
+        closeRequirements();
+      }
+    });
+
+  </script>
+
+  <!-- Modal de Requisitos de Arriendo -->
+  <div id="req-modal" class="req-modal" onclick="closeRequirements(event)">
+    <div class="req-modal-box" onclick="event.stopPropagation()">
+      <button class="req-modal-close" onclick="closeRequirements()" aria-label="Cerrar">✕</button>
+      
+      <span class="badge badge-clay" style="margin-bottom: 8px;">Requisitos de Postulación</span>
+      <h3 style="font-size: 1.85rem; color: var(--color-forest); margin-bottom: 6px;">Requisitos de Arriendo</h3>
+      <p style="font-size: 0.92rem; color: var(--color-text-muted);">Condiciones y antecedentes solicitados para arrendar la propiedad:</p>
+
+      <div class="req-grid">
+        <div class="req-item">
+          <div class="req-icon-wrap">💼</div>
+          <div>
+            <h4>Ingresos</h4>
+            <p>Sueldo líquido que triplique el valor del arriendo (se puede complementar).</p>
+          </div>
+        </div>
+
+        <div class="req-item">
+          <div class="req-icon-wrap">🛡️</div>
+          <div>
+            <h4>Mes de Garantía</h4>
+            <p>Garantía equivalente a <strong>1.5 meses</strong> de arriendo.</p>
+          </div>
+        </div>
+
+        <div class="req-item">
+          <div class="req-icon-wrap">🤝</div>
+          <div>
+            <h4>Comisión de Corretaje</h4>
+            <p>Comisión corredor: <strong>50%</strong> de un mes de arriendo.</p>
+          </div>
+        </div>
+
+        <div class="req-item">
+          <div class="req-icon-wrap">📄</div>
+          <div>
+            <h4>Informe Comercial</h4>
+            <p>Dicom sin morosidades ni protestos.</p>
+          </div>
+        </div>
+      </div>
+
+      <div style="display: flex; gap: 12px; justify-content: flex-end; flex-wrap: wrap;">
+        <button onclick="closeRequirements()" class="btn btn-secondary" style="padding: 10px 20px; font-size: 0.88rem;">Cerrar</button>
+        <a href="https://wa.me/56990815012?text=Hola%2C%20cumplo%20con%20los%20requisitos%20para%20arrendar%20la%20casa%20en%20Hacienda%20El%20Belloto.%20%C2%BFPodemos%20coordinar%20una%20visita%3F" target="_blank" class="btn btn-primary" style="padding: 10px 22px; font-size: 0.88rem;">
+          Consultar por WhatsApp
+        </a>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
